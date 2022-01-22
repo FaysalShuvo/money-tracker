@@ -1,0 +1,25 @@
+.login-from {
+  max-width: 360px;
+  margin: 40px auto;
+  padding: 40px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.login-from h2 {
+  text-align: center;
+}
+.login-from label,
+.login-from span {
+  display: block;
+  font-size: 1.4rem;
+  /* margin-bottom: 4px; */
+}
+.login-from input {
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: 1px solid teal;
+  outline: transparent;
+  color: #252a34;
+  width: 80%;
+  margin-bottom: 10px;
+}
