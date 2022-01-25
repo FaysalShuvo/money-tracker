@@ -35,8 +35,12 @@ a {
   font-size: 1.3rem;
   transition: all 0.3s ease;
 }
-
 .btn:hover {
   background: #252a34;
   color: #eaeaea;
+}
+.error {
+  color: #ff2e63;
+  font-size: 1.5rem;
+  font-style: italic;
 }
