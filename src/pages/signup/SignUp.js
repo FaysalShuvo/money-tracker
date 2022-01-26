@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { useSignup } from "../../hooks/useSignup";
 // styles
 import styles from "./SignUp.module.css";
@@ -8,15 +9,16 @@ const SignUp = () => {
   const [password, setPassword] = useState("");
   const [username, setUsername] = useState("");
   const { signup, isPending, error } = useSignup();
-
+  const navigate = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
     signup(email, password, username);
+    navigate("/");
   };
 
   return (
     <form onSubmit={handleSubmit} className={styles["signin-from"]}>
-      <h2>Login</h2>
+      <h2>Signup</h2>
       <label>
         <span>email: </span>
         <input

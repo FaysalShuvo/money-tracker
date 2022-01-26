@@ -17,14 +17,17 @@
   letter-spacing: 2px;
 }
 
-.signup {
-  background-color: #ff2e63;
-  border: none;
-  color: #252a34;
-  font-size: 1.5rem;
-}
 .login {
-  font-size: 1.5rem;
   margin-left: 10px;
+  color: #252a34;
+  margin: 10px;
+}
+.logout {
+  background-color: #ff2e63;
+}
+
+.logout:hover {
+  background-color: transparent !important;
+  box-shadow: inset 0 0 0 1px #ff2e63;
   color: #252a34;
 }
