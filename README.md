@@ -7,7 +7,7 @@
 - I have also used firebase authentication to authenticate using email and password
 - It's a money tracking website where you can post your spending.
 - you will post your own spending to your own dashboard.
-- Website is hosted in Netlify
+- Website is hosted in Firebase
 
 ## Installation
 
