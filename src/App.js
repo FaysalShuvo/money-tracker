@@ -11,18 +11,6 @@ import PrivateRoute from "./protectedRoute/PrivateRoute";
 function App() {
   const { authIsReady, user } = useAuthContext();
   return (
-    // <div className="App">
-    //   {authIsReady && (
-    //     <BrowserRouter>
-    //       <Navbar />
-    //       <Routes>
-    //         <Route path="/" element={<Home />} />
-    //         <Route path="sign-up" element={<SignUp />} />
-    //         <Route path="log-in" element={<Login />} />
-    //       </Routes>
-    //     </BrowserRouter>
-    //   )}
-    // </div>
 
     <div className="App">
       {authIsReady && (
